@@ -1,0 +1,41 @@
+
+/**
+ * Site Wrapper
+ */
+.site-wrapper.container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+/**
+ * Typography
+ */
+label {
+    display: block;
+    font-weight: bold;
+
+    font-size: 1.1em;
+}
+
+.description {
+    font-size: small;
+    opacity: 0.85;
+}
+
+/**
+ * Forms
+ */
+.form-control {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.hint {
+
+    margin-top: -1em;
+    padding: 1em;
+
+    background-color: #f00;
+    color: #fff;
+
+}

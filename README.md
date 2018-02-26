@@ -1,2 +1,2 @@
-# StatelessRepo
-Repository of modules for StatlessCMS
+# StatelessExample
+Example Stateless Application
