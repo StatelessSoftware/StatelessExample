@@ -1,7 +1,5 @@
 {
   "name": "statelessexample",
-  "version": "0.2.0",
-  "description": "Example Stateless Application",
   "main": "public/js/main.js",
   "dependencies": {
     "bootswatch": "^4.0.0",
@@ -17,7 +15,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
-    "sass": "rm -rf public/css/main.css && ./node_modules/.bin/node-sass src/scss/main.scss >> public/css/main.css",
+    "sass": "rm public/css/main.css && node-sass src/scss/main.scss >> public/css/main.css",
     "build": "npm run webpack && npm run sass"
   },
   "repository": {
