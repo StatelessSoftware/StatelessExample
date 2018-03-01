@@ -4,6 +4,7 @@
 
 ## Additions
 
+- [Issue #6] - Create build script
 - [Issue #4] - SCSS should be included by default
 
 ## [0.0.2] - 2018-03-01

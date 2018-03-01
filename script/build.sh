@@ -1,0 +1,1 @@
+rm public/css/main.css && node-sass src/scss/main.scss >> public/css/main.css
