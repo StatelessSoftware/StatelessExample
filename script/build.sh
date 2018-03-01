@@ -1,1 +1,7 @@
-rm public/css/main.css && node-sass src/scss/main.scss >> public/css/main.css
+# Build SASS
+echo "Building SASS...";
+npm run sass
+
+# Webpack js
+echo "Building JS...";
+npm run webpack

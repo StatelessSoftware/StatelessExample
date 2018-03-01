@@ -1,0 +1,32 @@
+{
+  "name": "statelessexample",
+  "version": "1.0.0",
+  "description": "Example Stateless Application",
+  "main": "public/js/main.js",
+  "dependencies": {
+    "bootswatch": "^4.0.0",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "sass": "rm public/css/main.css && ./node_modules/.bin/node-sass src/scss/main.scss >> public/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StatelessSoftware/StatelessExample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StatelessSoftware/StatelessExample/issues"
+  },
+  "homepage": "https://github.com/StatelessSoftware/StatelessExample#readme"
+}
