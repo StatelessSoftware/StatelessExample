@@ -5,6 +5,7 @@
 ### Fixes
 
 - [Issue #5] - Update project title in composer.json
+- [Issue #3] - Detach script should not delete composer.json
 
 ## [0.0.1] 2018-02-24
 
