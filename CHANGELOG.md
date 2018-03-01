@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.0] - 2018-03-01
+
+## Additions
+
+- [Issue #7] - BabelJS should be included by default
+- [Issue #6] - Create build script
+- [Issue #4] - SCSS should be included by default
+
 ## [0.0.2] - 2018-03-01
 
 ### Fixes
