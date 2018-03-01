@@ -89,8 +89,14 @@ final class SignUp extends \Stateless\Form {
                 // Create user
                 $user = new \App\Model\User();
                 $user->fromArray($values);
-        
+
+                // Insert user
                 $this->result = $user->insert($db);
+
+                // Sign the user in
+                $user->signin();
+
+                // Set error message
                 $this->error = "User could not be created.  Please try again later.";
     
             }

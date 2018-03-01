@@ -6,8 +6,11 @@ v0.3.0 Fixes a couple minor bugs and polishes the installation
 
 ### Additions
 
+- [Issue #25] - Create Model\User::signin()
+
 ### Fixes
 
+- [Issue #19] - Sign up leads to "You are not authenticated"
 - [Issue #18] - npm sass script should not use unix ./
 - [Issue #17] - [Readme] - Folder structure forgets about script directory
 

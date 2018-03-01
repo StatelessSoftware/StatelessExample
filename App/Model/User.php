@@ -152,24 +152,41 @@ class User extends \Stateless\Model {
                 array_key_exists("userId", $result)) {
 
                 if (Crypto::verifyHash($this->password, $result["password"])) {
-                    $userId = $result["userId"];
+                    $this->userId = $result["userId"];
 
-                    // Create a Session for the user
-                    \Stateless\Session::create([
-                        "cipherKey" => CIPHER_KEY,
-                        "uuid" => $userId,
-                        "salt" => CRYPTO_SALT,
-                        "pepperLength" => CRYPTO_PEPPER_LEN
-                    ]);
+                    $this->signin();
 
                     // Return this user
-                    return $userId;
+                    return $this->userId;
                 }
 
             }
         }
 
         return false;
+    }
+
+    /**
+     * Create a session for the user
+     * 
+     * @param integer $userId (Optional) User ID to create the session for
+     */
+    public function signin($userId = false) {
+
+        if ($userId === false) {
+            $userId = $this->userId;
+        }
+
+        // Create a Session for the user
+        \Stateless\Session::create(
+            [
+                "cipherKey" => CIPHER_KEY,
+                "uuid" => $userId,
+                "salt" => CRYPTO_SALT,
+                "pepperLength" => CRYPTO_PEPPER_LEN
+            ]
+        );
+
     }
 
     /**
