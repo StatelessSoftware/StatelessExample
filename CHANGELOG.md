@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0] - 2018-03-01
+
+v0.3.0 Fixes a couple minor bugs and polishes the installation
+
+### Additions
+
+### Fixes
+
 ## [0.2.0] - 2018-03-01
 
 ### Additions
