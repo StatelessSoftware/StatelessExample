@@ -5,6 +5,7 @@
 ### Additions
 
 - Added documentation
+- [Issue #12] - detach.sh should run the installer
 - [Issue #11] - Create install script
 
 ### Fixes
