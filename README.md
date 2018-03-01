@@ -1,7 +1,7 @@
 # StatelessExample
 Example Stateless Application
 
-This example shows how to easily create a Stateless app.  We will use Bootswatch Sass for our styling, and webpack (with babel) to compile our JS (this gives us es2015 compatability out of the box)
+This example shows how to easily create a Stateless app.  We will use Bootswatch Sass for our styling, and webpack for Javascript
 
 ## Download
 
