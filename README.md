@@ -34,6 +34,7 @@ Let's go over the files you should see.  The root project folder should like lik
 |- node_modules
 |- public
 |- src
+|- script
 |- vendor
 |- .gitignore
 |- composer.json
@@ -61,6 +62,10 @@ This folder you won't have to worry about too much, it hold's your sass and js l
 ### public
 
 Public houses your compiled css and js, your application entry `index.php`, your `.htaccess`, and any public images (such as your logo and favicon).  This will be the folder which is the server root.
+
+### script
+
+The script folder has scripts to manage your website, such as `create-app.sh`
 
 ### src
 
