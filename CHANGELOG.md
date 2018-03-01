@@ -7,6 +7,7 @@ v0.3.0 Fixes a couple minor bugs and polishes the installation
 ### Additions
 
 - [Issue #25] - Create Model\User::signin()
+- [Issue #22] - [Readme] Show prerequisites
 - [Issue #21] - Create-app script should show splash screen & further instructions
 - [Issue #20] - Need better not authenticated page
 

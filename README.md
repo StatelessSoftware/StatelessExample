@@ -9,6 +9,14 @@ Download the zip from github or run `git clone https://github.com/StatelessSoftw
 
 ## Installation
 
+0. ### Install Prerequisites ( You should probably already have these! )
+
+    - Git bash https://git-scm.com/
+    - Composer https://getcomposer.org/
+    - Nodejs https://nodejs.org/en/
+    - PHP 7+
+    - Database
+
 1. ### Run the installation
 
     - (Mac & Linux) - `cd` into the directory, and run `chmod 755 script/*` to set permissions on the scripts
