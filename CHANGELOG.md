@@ -4,6 +4,7 @@
 
 ## Additions
 
+- [Issue #7] - BabelJS should be included by default
 - [Issue #6] - Create build script
 - [Issue #4] - SCSS should be included by default
 
