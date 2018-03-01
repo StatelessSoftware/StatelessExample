@@ -5,6 +5,7 @@
 ### Additions
 
 - Added documentation
+- [Issue #15] - Build script should be replaced by "npm run build" for simplicity
 - [Issue #12] - detach.sh should run the installer
 - [Issue #11] - Create install script
 
