@@ -5,7 +5,7 @@ This example shows how to easily create a Stateless app.  We will use Bootswatch
 
 ## Download
 
-- Open up a blank folder on your computer (tip - make this your document root!)
+- Open up a blank folder on your computer (tip - make this your webserver document root!)
 - In a command line in this folder, run `git clone https://github.com/StatelessSoftware/StatelessExample .`
 - Tip - You can push this to your own git repository after running the installation step
 
