@@ -8,6 +8,7 @@ v0.3.0 Fixes a couple minor bugs and polishes the installation
 
 ### Fixes
 
+- [Issue #18] - npm sass script should not use unix ./
 - [Issue #17] - [Readme] - Folder structure forgets about script directory
 
 ## [0.2.0] - 2018-03-01
