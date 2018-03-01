@@ -10,7 +10,12 @@ global $user;
 global $siteTitle;
 
 // Dependencies
-require_once("../vendor/autoload.php");
+try {
+    require_once("../vendor/autoload.php");
+}
+catch (\Exception $e) {
+    die("Not Installed - Please run install script.");
+}
 
 // Files
 require_once("functions.php");
