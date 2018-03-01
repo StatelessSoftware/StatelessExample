@@ -11,6 +11,7 @@
 
 ### Fixes
 
+- [Issue #13] - Rename detach.sh
 - [Issue #10] - npm script "sass" fails if build file doesn't exist
 - [Issue #9] - package.json should reflect correct version number
 
