@@ -9,6 +9,7 @@
 ### Fixes
 
 - [Issue #10] - npm script "sass" fails if build file doesn't exist
+- [Issue #9] - package.json should reflect correct version number
 
 ## [0.1.0] - 2018-03-01
 
