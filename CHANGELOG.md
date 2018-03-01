@@ -5,6 +5,7 @@
 ### Additions
 
 - Added documentation
+- [Issue #11] - Create install script
 
 ### Fixes
 
