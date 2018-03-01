@@ -92,8 +92,8 @@ final class Controller extends \Stateless\Controller {
                 $this->view = new \App\View\Profile($user);
             }
             else {
-                $this->view = new \App\View\Page();
-                echo "You are not authenticated.";
+                Response::header(400);
+                $this->view = new \App\View\Page400();
             }
 
         }
