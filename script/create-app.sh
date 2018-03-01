@@ -3,3 +3,25 @@
 rm -rf .git CHANGELOG.md LICENSE README.md
 git init
 ./script/install.sh
+mkdir -p public/css public/js;
+touch public/css/main.css;
+touch public/js/main.css;
+
+echo "";
+echo "";
+echo "# ------------------------------------------------------";
+echo "# Stateless Example"
+echo "# ------------------------------------------------------";
+echo "";
+echo "Your app was created if you didn't see any errors above.  You are now ready ";
+echo "to build your app!";
+echo "";
+echo "Next steps:";
+echo "";
+echo "    - Follow the tutorial: https://github.com/StatelessSoftware/StatelessExample";
+echo "    - Compile (Compile the sass and js) - Run \`npm run build\`";
+echo "    - Push to Github";
+echo "        - A blank github repository was created here for you.  You can push it to Github.";
+echo "        - Create a blank Github repository (NO README OR ANY OTHER FILES!)";
+echo "        - Follow the instructions to push an existing repository on github";
+echo "";
