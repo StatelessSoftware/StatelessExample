@@ -17,7 +17,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
-    "sass": "rm public/css/main.css && ./node_modules/.bin/node-sass src/scss/main.scss >> public/css/main.css"
+    "sass": "rm -rf public/css/main.css && ./node_modules/.bin/node-sass src/scss/main.scss >> public/css/main.css"
   },
   "repository": {
     "type": "git",

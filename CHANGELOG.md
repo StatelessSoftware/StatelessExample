@@ -1,8 +1,18 @@
 # Changelog
 
+## [0.2.0] - 2018-03-01
+
+### Additions
+
+- Added documentation
+
+### Fixes
+
+- [Issue #10] - npm script "sass" fails if build file doesn't exist
+
 ## [0.1.0] - 2018-03-01
 
-## Additions
+### Additions
 
 - [Issue #7] - BabelJS should be included by default
 - [Issue #6] - Create build script
