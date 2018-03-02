@@ -21,7 +21,8 @@ This example shows how to easily create a Stateless app.  We will use Bootswatch
 
 1. ### Run the installation
 
-    - (Mac & Linux) - `cd` into the directory, and run `chmod 755 script/*` to set permissions on the scripts
+    - Open a command line terminal in the folder
+    - (Mac & Linux) - run `chmod 755 script/*` to grant permissions on the scripts
     - Run the create-app by running `./script/create-app.sh` (git bash required)
     - Make sure to edit `composer.json` and `package.json` to customize the app title and author!
 
