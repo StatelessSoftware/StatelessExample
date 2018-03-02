@@ -5,6 +5,7 @@
 v0.3.2 address issues with the package files (composer.json and package.json), such as updating and customizing
 ## Fixes
 
+- [Issue #31] - Create-app.sh should overwrite package file "name" field
 - [Issue #30] - Author should be omitted from package files
 - [Issue #29] - Lock files should be updated and regenerated
 

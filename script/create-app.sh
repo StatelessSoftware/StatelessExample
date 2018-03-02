@@ -10,10 +10,18 @@ touch public/js/main.css;
 git add .
 git commit -m "Added StatelessExample"
 
+## Replace package file names
+read -p "Project Name: " projectName;
+
+sed -i "2s/.*/    \"name\": \"$projectName\",/" composer.json;
+sed -i "2s/.*/  \"name\": \"$projectName\",/" package-lock.json;
+sed -i "2s/.*/  \"name\": \"$projectName\",/" package.json;
+
+## Show splash screen
 echo "";
 echo "";
 echo "# ------------------------------------------------------";
-echo "# Stateless Example"
+echo "# Stateless Example";
 echo "# ------------------------------------------------------";
 echo "";
 echo "Your app was created if you didn't see any errors above.  You are now ready ";
