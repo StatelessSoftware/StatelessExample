@@ -6,6 +6,7 @@ Minor installation fixes
 
 ### Fixes
 
+- [Issue #27] - Create-app.sh should git add and git commit
 - [Issue #26] - [Readme] - No need to tell the user to cd, they should already be there
 ## [0.3.0] - 2018-03-01
 
