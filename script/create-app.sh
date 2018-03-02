@@ -1,14 +1,13 @@
 #!/bin/bash
 
+## Remove StatelessExample files
 rm -rf .git CHANGELOG.md LICENSE README.md
-git init
-./script/install.sh
-mkdir -p public/css public/js;
-touch public/css/main.css;
-touch public/js/main.css;
 
-git add .
-git commit -m "Added StatelessExample"
+## Initialize empty Git repository
+git init
+
+## Install packages
+./script/install.sh
 
 ## Replace package file names
 read -p "Project Name: " projectName;
@@ -16,6 +15,10 @@ read -p "Project Name: " projectName;
 sed -i "2s/.*/    \"name\": \"$projectName\",/" composer.json;
 sed -i "2s/.*/  \"name\": \"$projectName\",/" package-lock.json;
 sed -i "2s/.*/  \"name\": \"$projectName\",/" package.json;
+
+## Create initial commit
+git add .
+git commit -m "Added StatelessExample"
 
 ## Show splash screen
 echo "";

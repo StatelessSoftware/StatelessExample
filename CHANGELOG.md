@@ -1,8 +1,18 @@
 # Changelog
 
+## [0.3.3] - 2018-03-01
+
+v0.3.3 contains minor patches to recent updates
+## Fixes
+
+- [Issue #35] - Create-app.sh - move touch public files to install.sh
+- [Issue #34] - Create-app.sh - Must replace package file names BEFORE git commit
+- [Issue #33] - Readme - No longer need to customize package file app title
+
 ## [0.3.2] - 2018-03-01
 
 v0.3.2 address issues with the package files (composer.json and package.json), such as updating and customizing
+
 ## Fixes
 
 - [Issue #31] - Create-app.sh should overwrite package file "name" field
