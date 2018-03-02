@@ -1,13 +1,7 @@
 {
     "name": "dimmerman/stateless-example",
-    "authors": [
-        {
-            "name": "Drew Immerman",
-            "email": "drewimmerman@gmail.com"
-        }
-    ],
     "require": {
-        "stateless/cms": "^1.3",
+        "stateless/cms": "^1.4",
         "respect/validation": "^1.1"
     }
 }
