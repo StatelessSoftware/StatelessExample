@@ -5,6 +5,8 @@
 v0.3.3 contains minor patches to recent updates
 ## Fixes
 
+- [Issue #33] - Readme - No longer need to customize package file app title
+
 ## [0.3.2] - 2018-03-01
 
 v0.3.2 address issues with the package files (composer.json and package.json), such as updating and customizing
