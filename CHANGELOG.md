@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.1] - 2018-03-01
+
+Minor installation fixes
+
+### Fixes
+
+- [Issue #27] - Create-app.sh should git add and git commit
+- [Issue #26] - [Readme] - No need to tell the user to cd, they should already be there
 ## [0.3.0] - 2018-03-01
 
 v0.3.0 Fixes a couple minor bugs and polishes the installation
