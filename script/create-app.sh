@@ -7,15 +7,16 @@ mkdir -p public/css public/js;
 touch public/css/main.css;
 touch public/js/main.css;
 
-git add .
-git commit -m "Added StatelessExample"
-
 ## Replace package file names
 read -p "Project Name: " projectName;
 
 sed -i "2s/.*/    \"name\": \"$projectName\",/" composer.json;
 sed -i "2s/.*/  \"name\": \"$projectName\",/" package-lock.json;
 sed -i "2s/.*/  \"name\": \"$projectName\",/" package.json;
+
+## Create initial commit
+git add .
+git commit -m "Added StatelessExample"
 
 ## Show splash screen
 echo "";
