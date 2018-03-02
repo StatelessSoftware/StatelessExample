@@ -5,6 +5,7 @@
 v0.3.3 contains minor patches to recent updates
 ## Fixes
 
+- [Issue #35] - Create-app.sh - move touch public files to install.sh
 - [Issue #34] - Create-app.sh - Must replace package file names BEFORE git commit
 - [Issue #33] - Readme - No longer need to customize package file app title
 

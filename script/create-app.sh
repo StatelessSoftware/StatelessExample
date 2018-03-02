@@ -1,11 +1,13 @@
 #!/bin/bash
 
+## Remove StatelessExample files
 rm -rf .git CHANGELOG.md LICENSE README.md
+
+## Initialize empty Git repository
 git init
+
+## Install packages
 ./script/install.sh
-mkdir -p public/css public/js;
-touch public/css/main.css;
-touch public/js/main.css;
 
 ## Replace package file names
 read -p "Project Name: " projectName;
