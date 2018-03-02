@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.3.2] - 2018-03-01
+
+v0.3.2 address issues with the package files (composer.json and package.json), such as updating and customizing
+## Fixes
+
 ## [0.3.1] - 2018-03-01
 
 Minor installation fixes
@@ -8,6 +13,7 @@ Minor installation fixes
 
 - [Issue #27] - Create-app.sh should git add and git commit
 - [Issue #26] - [Readme] - No need to tell the user to cd, they should already be there
+
 ## [0.3.0] - 2018-03-01
 
 v0.3.0 Fixes a couple minor bugs and polishes the installation
